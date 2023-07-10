@@ -1,7 +1,7 @@
 # Introduction to Pulumi
 A demo project to get you started with the basics of Pulumi
 
-jkkkkjkj
+## What is Pulumi?
 - Pulumi is an IaC library, enabling you to manage your infrastructure in your favorite language. It is available across all common languages, such as Python, Go, Javascript, C#, Typescript, etc., and supports all major cloud providers, like AWS, Azure, and GCP.
 
 ## Installation
