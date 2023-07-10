@@ -4,7 +4,7 @@ A demo project to get you started with the basics of Pulumi
 - Pulumi is an IaC library, enabling you to manage your infrastructure in your favorite language. It is available across all common languages, such as Python, Go, Javascript, C#, Typescript, etc., and supports all major cloud providers, like AWS, Azure, and GCP.
 
 ## Installation
-- For installation please refer to this [link](https://www.pulumi.com/docs/install/)
+- For installation please refer to this <a href="https://www.pulumi.com/docs/install/" target="_blank">link.</a>
 
 ## Creating a Pulumi Project
 * Infrastructure in Pulumi is organized into *projects*
