@@ -4,6 +4,8 @@
 * **``pulumi config``** - command manages configuration for your stack
 * **``pulumi config set``** - writes values to a stack configuration
 
+* **``Pulumi.<stack_name>.yaml``** - represents the main cofiguration file of the current stack.
+
 ## Retrieving Configuration
 * You can retrieve this configuration value in your code
 * You can also retrieve them from the CLI
