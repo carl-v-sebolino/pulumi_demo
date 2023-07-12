@@ -92,5 +92,6 @@ cd pulumi_demo_app
 ### Inspect Files
 * **``__main__.py``** - will serve as the main entry point of your Pulumi program.
 * **``Pulumi.yaml``** - represents the main cofiguration file of the project itself.
+* **``Pulumi.<stack_name>.yaml``** - represents the cofiguration the current stack.
 * **``venv``** - a virtual environment for your project.
 * **``requirements.txt``** - your project's Python dependency information.
