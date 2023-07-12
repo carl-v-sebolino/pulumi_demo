@@ -23,7 +23,7 @@ required_value = config.require('required_value')
 
 To set the required config value in your terminal to set the value
 ```
-pulumi config set required_value: 'this-is-a-required-value'
+pulumi config set required_value 'this-is-a-required-value'
 ```
 
 Set an optional value
