@@ -23,3 +23,14 @@ Delete a stack
 ```
 pulumi stack rm <stack_name>
 ```
+## Stack References
+* You can retrieve exported outputs and use them in new projects
+
+Example code:
+```
+stack = pulumi.get_stack()
+org = 'foo_organization'
+stack_ref = pulumi.StackReference(f'{org}/stack_sample/{stack}')
+exported_value_from_other_stack = stack_ref.get_output('exported_value')
+```
+* **``exported_value``** - This string is the output variable from the other stack within your project.
