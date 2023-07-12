@@ -1,7 +1,9 @@
 # Stack
+* When you bootstrap a project, you have to initialize a stack
 * Every program has corresponding stacks, or isolated, independently configurable instances of your Pulumi program.
 * The default is **``dev``**
-* You must set up a config for each stack
+* You can set up a config for each stack
+* You can also copy config between stacks
 
 Create a stack
 ```
