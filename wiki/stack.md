@@ -23,6 +23,9 @@ Delete a stack
 ```
 pulumi stack rm <stack_name>
 ```
+## Stack Output
+We can also get this value by running **``pulumi stack output <key>``** on any particular stack.
+
 ## Stack References
 * You can retrieve exported outputs and use them in new projects
 
@@ -34,3 +37,5 @@ stack_ref = pulumi.StackReference(f'{org}/stack_sample/{stack}')
 exported_value_from_other_stack = stack_ref.get_output('exported_value')
 ```
 * **``exported_value``** - This string is the output variable from the other stack within your project.
+
+## Making a stack configurable
