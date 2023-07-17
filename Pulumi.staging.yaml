@@ -1,0 +1,5 @@
+config:
+  pulumi_demo:optional_value: this-is-an-optional-value-from-staging
+  pulumi_demo:required_value: this-is-required-value-from-staging
+  pulumi_demo:secret_value:
+    secure: AAABAPaePyufFvzTlk45Qvdhhqq2DljIa/eez5oVTzTTWI5YvHd1GRvg1DrjRm4w7DC613ryYBE9uow=

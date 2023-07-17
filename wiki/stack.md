@@ -28,6 +28,7 @@ We can also get this value by running **``pulumi stack output <key>``** on any p
 
 ## Stack References
 * You can retrieve exported outputs and use them in new projects
+* Allow you to access the outputs of one stack from another stack.
 
 Example code:
 ```
@@ -39,3 +40,5 @@ exported_value_from_other_stack = stack_ref.get_output('exported_value')
 * **``exported_value``** - This string is the output variable from the other stack within your project.
 
 ## Making a stack configurable
+* One of the main reasons to use stacks is to have different configurations between them.
+* For example you can set a different configuration for a **`dev`** and a **`staging`** stack
