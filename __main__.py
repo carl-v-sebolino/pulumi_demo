@@ -12,3 +12,5 @@ print(SECRET_VALUE)
 front_end_port = '3000'
 pulumi.export('url', pulumi.Output.format(
     'https://localhost:{0}', front_end_port))
+
+pulumi.export('secret_value', SECRET_VALUE)
