@@ -144,7 +144,7 @@ class OurBucketComponent(pulumi.ComponentResource):
             f"{self.name_me}-policy",
             bucket=self.bucket.id,
             policy=self.define_policy(),
-            opts=pulumi.ResourceOptions(parent=self.bucket)
+            opts=pulumi.ResourceOptions(parent=self.bucket) # assign resource as a child
         )
         return bucket_policy
 
