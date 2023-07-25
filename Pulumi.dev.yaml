@@ -3,4 +3,4 @@ config:
   pulumi_demo:optional_value: this-is-an-optional-value
   pulumi_demo:required_value: this-is-a-required-value-from-dev
   pulumi_demo:secret_value:
-    secure: AAABAE3ocIZ/k6q3d2xLzV1hS2X+9yDjp6GXO6vYvpl/R4Xkkxc1g/D4wEqvz8Pl+OqkX5mss8rKr/H0yCkD
+    secure: AAABANx+S5ZJXNeMKqwSldK7b0nm/3ODOzRXUR1nneTXNYzCCtCg7QT8HgzEsw==
